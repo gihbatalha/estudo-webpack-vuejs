@@ -1,0 +1,30 @@
+{
+  "name": "estudo-vuejs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm run build && node ./client/bin/www",
+    "build": "webpack && gulp"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "vue": "^2.6.12",
+    "vue-router": "^3.4.5"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "html-webpack-plugin": "^4.5.0",
+    "ts-loader": "^8.0.4",
+    "typescript": "^4.0.3",
+    "vue-loader": "15.2.4",
+    "vue-template-compiler": "^2.6.12",
+    "vue-types": "^2.0.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}

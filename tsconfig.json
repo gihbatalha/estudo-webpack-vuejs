@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist/",
+      "noImplicitAny": true,
+      "module": "es2015",
+      "moduleResolution": "node",
+      "strict": true,
+      "target": "es5",
+      "allowJs": true
+    },
+    "include": [
+        "frontend/src/**/*.ts", "frontend/src/**/*.js", "frontend/src/**/*.vue"
+    ],
+    "files": [
+      "frontend/src/vue-shims.d.ts"
+    ]
+}
